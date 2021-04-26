@@ -23,14 +23,31 @@ body {
 
 .block {
   height: 500px;
-  width: 900px;
+  width: 1000px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -350px 0 0 -450px;
+  margin: -300px 0 0 -500px;
   border-style: dashed;
   border-color: lightyellow;
   border-width: 5px;
   background-color: lightsalmon;
-  padding: 30px;
+}
+
+.about {
+  font-family: Impact;
+  font-size: 35px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.circle {
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: lightpink;
+  border-width: 9px;
+}
+
+.img {
+  padding: 15px
 }
