@@ -1,0 +1,54 @@
+* {
+   box-sizing: border-box;
+   border-radius: 15px;
+}
+
+.container {
+   width: 100%;
+   background-color: #ddd;
+   margin-bottom: -50px;
+}
+
+.skills {
+   text-align: right;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   color: white;
+   font-family: Impact;
+   font-size: 20px;
+   animation-name: anm;
+   animation-duration: 1.5s;
+   animation-timing-function: ease-in;
+}
+
+.html {
+   width: 90%;
+   background-color: #04AA6D;
+}
+
+.css {
+   width: 80%;
+   background-color: #2196F3;
+}
+
+.js {
+   width: 65%;
+   background-color: #f44336;
+}
+
+.jsp {
+   width: 60%;
+   background-color: #808080;
+}
+
+.container p {
+   font-family: Impact;
+   font-size: 20px;
+}
+
+
+@keyframes anm {
+   0% {
+      width: 30%;
+   }
+}
