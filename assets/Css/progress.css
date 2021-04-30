@@ -52,3 +52,18 @@
       width: 30%;
    }
 }
+
+p:hover {
+   animation-name: text;
+   animation-duration: 0.5s;
+   animation-fill-mode: forwards;
+   transition: 1s;
+}
+
+
+@keyframes text {
+   to {
+      font-size: 25px;
+   }
+
+}
