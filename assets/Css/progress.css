@@ -37,9 +37,19 @@
    background-color: #f44336;
 }
 
+.java {
+   width: 70%;
+   background-color: palevioletred;
+}
+
 .jsp {
    width: 60%;
    background-color: #808080;
+}
+
+.c {
+   width: 76%;
+   background-color: lightseagreen;
 }
 
 .container p {
