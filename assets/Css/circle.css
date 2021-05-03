@@ -1156,8 +1156,7 @@
   font-weight: bold;
 }
 
-.c100.p84 .fill,
-.c100.p84 .bar,
-.instrument {
-  border: 0.08em solid #fcb86a;
+.c100.p90 .fill,
+.c100.p90 .bar {
+  border: 0.08em solid #6b86ff;
 }

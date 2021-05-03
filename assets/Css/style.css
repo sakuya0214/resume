@@ -77,7 +77,6 @@ h1 {
 
 }
 
-
 .circle:hover {
   transform: translateY(-30px);
   transition: 1s ease-in-out;
@@ -92,7 +91,7 @@ h1 {
 
 .info {
   position: relative;
-  top: -376px;
+  top: -390px;
   left: 400px;
   font-family: impact, '微軟正黑體';
   font-size: 28px;
