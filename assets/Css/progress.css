@@ -52,10 +52,6 @@
    background-color: lightseagreen;
 }
 
-.container p {
-   font-family: Impact;
-   font-size: 20px;
-}
 
 @keyframes anm {
    0% {
@@ -63,7 +59,7 @@
    }
 }
 
-p:hover {
+.block2 p:hover {
    animation-name: text;
    animation-duration: 0.5s;
    animation-fill-mode: forwards;
