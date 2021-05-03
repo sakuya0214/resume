@@ -70,7 +70,6 @@ p:hover {
    transition: 1s;
 }
 
-
 @keyframes text {
    to {
       font-size: 25px;
