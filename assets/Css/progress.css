@@ -7,12 +7,15 @@
    width: 100%;
    background-color: #ddd;
    margin-bottom: -50px;
+
 }
+
+
 
 .skills {
    text-align: right;
    padding-top: 3px;
-   padding-bottom: 3px;
+   padding-bottom: -3px;
    color: white;
    font-family: Impact;
    font-size: 20px;
