@@ -1145,3 +1145,13 @@
     transform: rotate(180deg);
   }
 }
+
+.normal {
+  z-index: 3;
+  position: relative;
+  top: 130px;
+  font-family: impact,
+    '微軟正黑體';
+  font-size: 20px;
+  font-weight: bold;
+}
