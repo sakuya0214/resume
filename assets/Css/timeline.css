@@ -1,14 +1,18 @@
-/* Set a background color */
-body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
-}
-
 /* The actual timeline (the vertical ruler) */
 .timeline {
+  height: 550px;
+  width: 1000px;
   position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+  top: 5%;
+  left: 5%;
+  padding: 20px;
+  margin: -130px 0 0 -25px;
+  border-style: dashed;
+  border-color: lightyellow;
+  border-width: 5px;
+  background-color: #ffab86;
+
+
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -21,18 +25,18 @@ body {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+
 }
 
 /* Container around content */
-.container {
+.box {
   padding: 10px 40px;
   position: relative;
-  background-color: inherit;
   width: 50%;
 }
 
 /* The circles on the timeline */
-.container::after {
+.box::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -89,11 +93,12 @@ body {
 }
 
 /* The actual content */
-.content {
+.con {
   padding: 20px 30px;
   background-color: white;
   position: relative;
   border-radius: 6px;
+  transition: 1.5s ease-in;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -129,4 +134,8 @@ body {
   .right {
     left: 0%;
   }
+}
+
+.text {
+  transition: 1s;
 }
