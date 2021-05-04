@@ -8,9 +8,10 @@
   <link rel="stylesheet" type="text/css" href="assets/Css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/Css/circle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <script src="assets/Js/script.js"></script>
   <link href="assets/Css/progress.css" rel="stylesheet">
   <link href="assets/Css/timeline.css" rel="stylesheet">
+  <link href="assets/Css/accordion.css" rel="stylesheet">
+  <script src="assets/Js/accordion.js"></script>
 </head>
 
 <body>
@@ -92,27 +93,69 @@
     </div>
   </div>
 
-  <div>
 
-    <div class="timeline">
-      <div class="box left">
-        <div class="con">
-          <div class="text">
-            <h2>大一上學期</h2>
-            <p>管理學</p>
+  <div>
+    <div>
+      <button class="accordion">Section 1</button>
+      <div class="panel">
+        <p>
+          <div class="timeline">
+            <div class="box left">
+              <div class="con">
+                <div class="text">
+                  <h2>大一上學期</h2>
+                  <p>管理學</p>
+                </div>
+              </div>
+            </div>
+            <div class="box right">
+              <div class="con">
+                <div class="text">
+                  <h2>2016</h2>
+                  <p>Lorem ipsum..</p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </p>
       </div>
-      <div class="box right">
-        <div class="con">
-          <div class="text">
-            <h2>2016</h2>
-            <p>Lorem ipsum..</p>
-          </div>
+      <div>
+        <button class="accordion">Section 2</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
         </div>
+
+        <button class="accordion">Section 3</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+        </div>
+        <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var
+                panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            });
+          }
+        </script>
       </div>
     </div>
-
   </div>
 </body>
 
