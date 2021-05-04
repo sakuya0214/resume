@@ -1,0 +1,71 @@
+* {
+   box-sizing: border-box;
+   border-radius: 15px;
+}
+
+.container {
+   width: 100%;
+   background-color: #ddd;
+   margin-bottom: -50px;
+
+}
+
+.skills {
+   text-align: right;
+   padding-top: 3px;
+   padding-bottom: -3px;
+   color: black;
+   font-family: Impact;
+   font-size: 20px;
+   animation-name: anm;
+   animation-duration: 1.5s;
+   animation-timing-function: ease-in;
+
+}
+
+.html {
+   width: 90%;
+   background-color: #D95857;
+
+}
+
+.css {
+   width: 80%;
+   background-color: #D98900;
+}
+
+.js {
+   width: 65%;
+   background-color: #974CD9;
+}
+
+.java {
+   width: 70%;
+   background-color: #36D968;
+}
+
+.jsp {
+   width: 60%;
+   background-color: #418AD9;
+}
+
+.c {
+   width: 76%;
+   background-color: lightseagreen;
+}
+
+
+@keyframes anm {
+   0% {
+      width: 30%;
+   }
+}
+
+.block2 p:hover {
+   transform: scale(1.1);
+   transition: 0.5s ease-in-out;
+}
+
+.block2 p {
+   transition: 0.5s ease-in-out;
+}

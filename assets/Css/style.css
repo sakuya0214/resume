@@ -1,0 +1,124 @@
+body {
+  background-image: linear-gradient(to top, #bcccc1 0%, #ff7283 120%);
+  height: 1500px;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background-color: #6cd4d7;
+  border-radius: 0px;
+}
+
+.title {
+  font-family: Impact;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.block1 {
+  height: 550px;
+  width: 1000px;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  padding: 20px;
+  margin: 50px 0 0 -25px;
+  border-style: dashed;
+  border-color: lightyellow;
+  border-width: 5px;
+  background-color: #ffab86;
+}
+
+.block2 {
+  height: 800px;
+  width: 490px;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  padding: 20px;
+  margin: -550px 0 0 1040px;
+  border-style: dashed;
+  border-color: lightyellow;
+  border-width: 5px;
+  background-color: #ffab86;
+}
+
+.block2 p {
+  font-family: impact;
+  font-size: 20px;
+  position: relative;
+  top: 47px;
+  left: 10px;
+}
+
+.circle {
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: lightpink;
+  border-width: 9px;
+}
+
+
+
+.img {
+  padding: 15px;
+  padding-top: 40px;
+}
+
+h1 {
+  font-family: Impact;
+  font-size: 35px;
+  margin-bottom: -20px;
+  text-decoration: underline;
+
+}
+
+.line:hover {
+  transform: translateY(-30px);
+  transition: 1s ease-in-out;
+}
+
+.line {
+  transition: 1s ease-in-out;
+
+  width: 320px;
+}
+
+.icon img {
+  border-radius: 0px;
+  margin-left: 50px;
+  position: relative;
+  left: 25px;
+
+}
+
+.info {
+  position: relative;
+  top: -390px;
+  left: 400px;
+  font-family: impact, '微軟正黑體';
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.infomation {
+  position: relative;
+  top: -518px;
+  left: 550px;
+  font-family: impact, '微軟正黑體';
+  font-size: 28px;
+  font-weight: bold;
+}
+
+*,
+body,
+a,
+a:hover {
+  cursor: url(../Image/cur.png), auto;
+}
