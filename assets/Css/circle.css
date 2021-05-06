@@ -1160,3 +1160,8 @@
 .c100.p90 .bar {
   border: 0.08em solid #6b86ff;
 }
+
+.clearfix {
+  position: relative;
+  top: -30px;
+}

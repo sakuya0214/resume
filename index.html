@@ -11,6 +11,7 @@
   <link href="assets/Css/progress.css" rel="stylesheet">
   <link href="assets/Css/timeline.css" rel="stylesheet">
   <link href="assets/Css/accordion.css" rel="stylesheet">
+  <link href="assets/Css/flip-card.css" rel="stylesheet">
   <script src="assets/Js/accordion.js"></script>
 </head>
 
@@ -29,6 +30,7 @@
     <div class="icon">
       <a href="https://www.facebook.com/s212225"><img src="assets/Image/facebook.png" title="facebook"></a>
       <a href="https://www.instagram.com/sakuya_214/"><img src="assets/Image/instagram.png" title="instagram"></a>
+      <a href="https://github.com/sakuya0214/"><img src="assets/Image/github.png" title="github"></a>
       <a href="mailto:s2122250.0@gmail.com"><img src="assets/Image/email.png" title="email"></a>
     </div>
     <div class="info">
@@ -72,7 +74,7 @@
         </div>
       </div>
     </div>
-
+    <h1>Professional skill</h1>
     <div class="clearfix">
       <div class="c100 p90 instrument">
         <span>90%</span>
@@ -94,67 +96,74 @@
   </div>
 
 
-  <div>
+  <div class="accordion_bar">
     <div>
-      <button class="accordion">Section 1</button>
+      <button class="accordion">課程經歷</button>
       <div class="panel">
-        <p>
-          <div class="timeline">
-            <div class="box left">
-              <div class="con">
-                <div class="text">
-                  <h2>大一上學期</h2>
-                  <p>管理學</p>
-                </div>
+        <div class="timeline">
+          <div class="flip-card box left">
+            <div class="con flip-card-inner">
+              <div class="flip-card-front text">
+                <h2>大一上學期</h2>
+                <p>管理學</p>
               </div>
-            </div>
-            <div class="box right">
-              <div class="con">
-                <div class="text">
-                  <h2>2016</h2>
-                  <p>Lorem ipsum..</p>
-                </div>
+              <div class="flip-card-back">
+                <h2>專案名稱</h2>
+                <p>銀髮學院APP教學</p>
               </div>
             </div>
           </div>
-        </p>
-      </div>
-      <div>
-        <button class="accordion">Section 2</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
+          <div class="flip-card box right">
+            <div class="con flip-card-inner">
+              <div class="flip-card-front text">
+                <h2>大一下學期</h2>
+                <p>企業概論</p>
+              </div>
+              <div class="flip-card-back">
+                <h2>專案名稱</h2>
+                <p>傑克與魔豆纖餅</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <button class="accordion">Section 3</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-        </div>
-        <script>
-          var acc = document.getElementsByClassName("accordion");
-          var i;
-
-          for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function () {
-              this.classList.toggle("active");
-              var
-                panel = this.nextElementSibling;
-              if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-              } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-              }
-            });
-          }
-        </script>
       </div>
+
+    </div>
+    <div>
+      <button class="accordion">專案/作品集</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo
+          consequat.</p>
+      </div>
+
+      <button class="accordion">Section 3</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo
+          consequat.</p>
+      </div>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var
+              panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+      </script>
     </div>
   </div>
 </body>
