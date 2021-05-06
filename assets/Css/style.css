@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(to top, #bcccc1 0%, #ff7283 120%);
   height: 1500px;
+  width: 100px;
 }
 
 .header {
@@ -9,7 +10,7 @@ body {
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: 2;
+  z-index: 5;
   background-color: #6cd4d7;
   border-radius: 0px;
 }
@@ -26,7 +27,7 @@ body {
   width: 1000px;
   position: relative;
   top: 5%;
-  left: 5%;
+  left: 50%;
   padding: 20px;
   margin: 50px 0 0 -25px;
   border-style: dashed;
@@ -64,8 +65,6 @@ body {
   border-width: 9px;
 }
 
-
-
 .img {
   padding: 15px;
   padding-top: 40px;
@@ -92,7 +91,7 @@ h1 {
 
 .icon img {
   border-radius: 0px;
-  margin-left: 50px;
+  margin-left: 35px;
   position: relative;
   left: 25px;
 

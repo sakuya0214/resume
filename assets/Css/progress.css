@@ -20,7 +20,6 @@
    animation-name: anm;
    animation-duration: 1.5s;
    animation-timing-function: ease-in;
-
 }
 
 .html {
@@ -68,4 +67,8 @@
 
 .block2 p {
    transition: 0.5s ease-in-out;
+}
+
+.skill_bar {
+   padding-bottom: 50px;
 }
