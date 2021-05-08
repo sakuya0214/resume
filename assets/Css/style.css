@@ -37,13 +37,13 @@ body {
 }
 
 .block2 {
-  height: 800px;
-  width: 490px;
+  height: 900px;
+  width: 600px;
   position: relative;
   top: 5%;
   left: 5%;
   padding: 20px;
-  margin: -550px 0 0 1040px;
+  margin: -550px 0 0 1050px;
   border-style: dashed;
   border-color: lightyellow;
   border-width: 5px;

@@ -1108,6 +1108,7 @@
   -ms-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   transform: rotate(360deg);
+
 }
 
 .c100:hover {
@@ -1133,6 +1134,7 @@
   animation-name: bar;
   animation-duration: 1.5s;
   animation-timing-function: ease-in;
+
 
 }
 
@@ -1161,7 +1163,8 @@
   border: 0.08em solid #6b86ff;
 }
 
-.clearfix {
+.c100 {
   position: relative;
-  top: -30px;
+  top: 45px;
+  margin: 30px;
 }

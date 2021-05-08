@@ -1,16 +1,17 @@
 .accordion {
   color: #444;
   cursor: pointer;
-  padding: 20px;
+  padding: 31px;
   margin-top: 5px;
   width: 1000px;
   border: dashed white 5px;
   background-color: #ffab86;
   font-size: 15px;
   position: relative;
+  top: -120px;
   font-size: 40px;
   font-family: impact, '微軟正黑體';
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bolder;
   color: black;
 }
@@ -28,6 +29,7 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   position: relative;
+  top: -120px;
 }
 
 .accordion_bar {
