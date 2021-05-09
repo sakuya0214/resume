@@ -1,6 +1,6 @@
 /* The actual timeline (the vertical ruler) */
 .timeline {
-  height: 550px;
+  height: 1000px;
   width: 1000px;
   position: relative;
   top: 100px;

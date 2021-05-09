@@ -30,6 +30,7 @@
   transition: max-height 0.2s ease-out;
   position: relative;
   top: -120px;
+  height: auto;
 }
 
 .accordion_bar {

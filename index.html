@@ -160,6 +160,42 @@
               </div>
             </div>
           </div>
+          <div class="flip-card box left">
+            <div class="con flip-card-inner">
+              <div class="flip-card-front text">
+                <h2>大一下學期</h2>
+                <p>企業概論</p>
+              </div>
+              <div class="flip-card-back">
+                <h2>專案名稱</h2>
+                <p>傑克與魔豆纖餅</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card box right">
+            <div class="con flip-card-inner">
+              <div class="flip-card-front text">
+                <h2>大一下學期</h2>
+                <p>企業概論</p>
+              </div>
+              <div class="flip-card-back">
+                <h2>專案名稱</h2>
+                <p>傑克與魔豆纖餅</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card box left">
+            <div class="con flip-card-inner">
+              <div class="flip-card-front text">
+                <h2>大一下學期</h2>
+                <p>企業概論</p>
+              </div>
+              <div class="flip-card-back">
+                <h2>專案名稱</h2>
+                <p>傑克與魔豆纖餅</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -176,38 +212,65 @@
 
       <button class="accordion">證照</button>
       <div class="panel">
-        <div class="license">
-          <img src="assets/Image/pic1.png" alt="license" class="image">
-          <div class="overlay">
-            <div class="text">Hello World</div>
-          </div>
-        </div>
-        <div class="license">
-          <img src="assets/Image/pic1.png" alt="license" class="image">
-          <div class="overlay">
-            <div class="text">Hello World</div>
-          </div>
-        </div>
+        <table border="1">
+          <tr>
+            <td class="license"><img src="assets/Image/pic1.png" alt="license" class="image">
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </td>
+            <td class="license"> <img src="assets/Image/pic1.png" alt="license" class="image">
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="license"><img src="assets/Image/pic1.png" alt="license" class="image">
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </td>
+            <td class="license"> <img src="assets/Image/pic1.png" alt="license" class="image">
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="license"><img src="assets/Image/pic1.png" alt="license" class="image">
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </td>
+            <td class="license"> <img src="assets/Image/pic1.png" alt="license" class="image">
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+            </td>
+          </tr>
+        </table>
       </div>
-
-      <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var
-              panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-              panel.style.maxHeight = null;
-            } else {
-              panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-          });
-        }
-      </script>
     </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var
+            panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </div>
   </div>
 </body>
 
