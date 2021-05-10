@@ -20,16 +20,19 @@
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0px;
   background-color: #ffc8c8;
   max-height: 0;
   width: 1000px;
+  height: auto;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
 .accordion_bar {
   position: relative;
+  width: 1000px;
   top: -750px;
   left: 5%;
+  margin-bottom: -500px;
 }
