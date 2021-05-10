@@ -1156,12 +1156,39 @@
     '微軟正黑體';
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .c100.p90 .fill,
 .c100.p90 .bar {
-  border: 0.08em solid #6b86ff;
+  border: 0.08em solid #0C90AD;
 }
+
+.c100.p84 .fill,
+.c100.p84 .bar {
+  border: 0.08em solid #d67dff;
+}
+
+.c100.p67 .fill,
+.c100.p67 .bar {
+  border: 0.08em solid#81665C;
+}
+
+.c100.p82 .fill,
+.c100.p82 .bar {
+  border: 0.08em solid #e06ba2;
+}
+
+.c100.p72 .fill,
+.c100.p72 .bar {
+  border: 0.08em solid #EA6D56;
+}
+
+.c100.p76 .fill,
+.c100.p76 .bar {
+  border: 0.08em solid#9da54b;
+}
+
 
 .c100 {
   position: relative;
