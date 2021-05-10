@@ -2,6 +2,7 @@
 .flip-card {
   height: 150px;
   /* Remove this if you don't want the 3D effect */
+
 }
 
 /* This container is needed to position the front and back side */
@@ -31,5 +32,5 @@
 .flip-card-back {
   transform: rotateY(180deg);
   position: relative;
-  top: -100px
+  top: -100px;
 }

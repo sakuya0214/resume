@@ -27,6 +27,7 @@
   height: auto;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+
 }
 
 .accordion_bar {
@@ -34,5 +35,5 @@
   width: 1000px;
   top: -750px;
   left: 5%;
-  margin-bottom: -500px;
+  margin-bottom: -430px;
 }
