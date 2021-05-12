@@ -4,13 +4,6 @@
   margin: 5%;
 }
 
-.image {
-  display: block;
-  width: auto;
-  height: 100%;
-  padding: 5%;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -21,7 +14,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #6cd4d7;
 }
 
 .license:hover .overlay {
@@ -29,7 +22,7 @@
 }
 
 .license .text {
-  color: white;
+  color: black;
   font-size: 30px;
   position: absolute;
   top: 50%;
@@ -43,7 +36,7 @@
   font-weight: bold;
 }
 
-table {
-  margin: 10px;
-  padding: 10px;
+.license img {
+  width: 490px;
+  height: 300px;
 }

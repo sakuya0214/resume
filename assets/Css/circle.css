@@ -1171,28 +1171,27 @@
 
 .c100.p67 .fill,
 .c100.p67 .bar {
-  border: 0.08em solid#81665C;
+  border: 0.08em solid#aa6247;
 }
 
 .c100.p82 .fill,
 .c100.p82 .bar {
-  border: 0.08em solid #e06ba2;
+  border: 0.08em solid #941651;
 }
 
 .c100.p72 .fill,
 .c100.p72 .bar {
-  border: 0.08em solid #EA6D56;
+  border: 0.08em solid #e07373;
 }
 
 .c100.p76 .fill,
 .c100.p76 .bar {
-  border: 0.08em solid#9da54b;
+  border: 0.08em solid#256b34;
 }
 
 
 .c100 {
   position: relative;
-  top: 45px;
+  top: 150px;
   margin: 30px;
-
 }

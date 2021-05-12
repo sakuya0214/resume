@@ -13,7 +13,7 @@
   <link href="assets/Css/accordion.css" rel="stylesheet">
   <link href="assets/Css/flip-card.css" rel="stylesheet">
   <link href="assets/Css/image_overlay_fade.css" rel="stylesheet">
-  <script src="assets/Js/accordion.js"></script>
+  <link href="assets/Css/Image_Overlay_Title.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
       <h1>About me</h1>
     </div>
     <div class="img">
-      <div class="line"><img class="circle" src="assets/Image/pic1.png"></div>
+      <div class="line"><img class="circle" src="assets/Image/img.jpg"></div>
     </div>
     <div class="icon">
       <a href="https://www.facebook.com/s212225"><img src="assets/Image/facebook.png" title="facebook"></a>
@@ -45,17 +45,31 @@
         2001/02/14
       </div>
       <div class="infomation">
+        <img src="assets/Image/star.png">
+        水瓶座
+        <img src="assets/Image/aquarius.png">
+      </div>
+      <div class="infomation">
+        <img src="assets/Image/blood.png">
+        A型
+      </div>
+      <div class="infomation">
         <img src="assets/Image/college-graduation.png">
         中原大學 資訊管理學系
       </div>
-    </div>
+      <div style="position: absolute; top:320px; left: 15px;">
+        <h5 style="color:gray;"><i> "希望を信じる、未来を創る"</i></h5>
+      </div>
 
+    </div>
   </div>
 
 
   <div class="block2">
     <div>
-      <h1>Program Skills</h1>
+      <div>
+        <h1>Program Skills</h1>
+      </div>
       <p>HTML</p>
       <div class="skill_bar">
         <div class="container">
@@ -84,7 +98,7 @@
       </div>
     </div>
 
-    <h1>Professional skill</h1>
+    <h1 class="pro">Professional skill</h1>
     <div class="clearfix">
       <div class="c100 p90 instrument">
         <span>90%</span>
@@ -140,6 +154,41 @@
 
 
   <div class="accordion_bar">
+    <div>
+      <button class="accordion">學習歷程</button>
+      <div class="panel">
+        <div class="timeline tl2">
+          <div class="box right">
+            <div class="con2">
+              <div class="text">
+                <h2>壽山國小</h2>
+              </div>
+            </div>
+          </div>
+          <div class="box right">
+            <div class="con2">
+              <div class="text">
+                <h2>龜山國中</h2>
+              </div>
+            </div>
+          </div>
+          <div class="box right">
+            <div class="con2">
+              <div class="text">
+                <h2>振聲高中 商業經營科</h2>
+              </div>
+            </div>
+          </div>
+          <div class="box right">
+            <div class="con2">
+              <div class="text">
+                <h2>中原大學 資訊管理學系</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div>
       <button class="accordion">課程經歷</button>
       <div class="panel">
@@ -199,52 +248,75 @@
     <div>
       <button class="accordion">專案/作品集</button>
       <div class="panel">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo
-          consequat.</p>
+        <table>
+          <tr>
+            <td>
+              <div class="container2">
+                <img src="assets/Image/management.jpg" class="image">
+                <div class="overlay2">銀髮學院APP教學</div>
+              </div>
+            </td>
+            <td>
+              <div class="container2">
+                <a href="https://www.facebook.com/BeancookieCYIM"><img src="assets/Image/business.jpg"
+                    class="image"></a>
+                <div class="overlay2">傑克與魔豆纖餅</div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="container2">
+                <img src="assets/Image/program.jpg" class="image">
+                <div class="overlay2">c.m（chocolate market）［後端］</div>
+              </div>
+            </td>
+            <td>
+              <div class="container2">
+                <a href="https://swarmy0330.github.io/index.html"><img src="assets/Image/general education.jpg"
+                    class="image"></a>
+                <div class="overlay2">中原大學通識活動</div>
+              </div>
+            </td>
+          </tr>
+        </table>
       </div>
 
       <button class="accordion">證照</button>
       <div class="panel">
-        <table border="1">
+        <table class="fade_table">
           <tr>
-            <td class="license"><img src="assets/Image/pic1.png" alt="license" class="image">
+            <td class="license"> <img src="assets/Image/license2.jpg" alt="license" class="image">
               <div class="overlay">
-                <div class="text">電腦軟體丙檢</div>
+                <div class="text">TQC-PowerPoint<br>Advanceed</div>
               </div>
             </td>
-            <td class="license"> <img src="assets/Image/pic1.png" alt="license" class="image">
+            <td class="license"><img src="assets/Image/license3.jpg" alt="license" class="image">
               <div class="overlay">
-                <div class="text">會計資訊丙檢</div>
+                <div class="text">TQC-Excel<br>Primary</div>
               </div>
             </td>
           </tr>
           <tr>
-            <td class="license"><img src="assets/Image/pic1.png" alt="license" class="image">
+            <td class="license"> <img src="assets/Image/license4.jpg" alt="license" class="image">
               <div class="overlay">
-                <div class="text">門市服務丙檢</div>
+                <div class="text">會計事務——資訊<br>丙檢</div>
               </div>
             </td>
-            <td class="license"> <img src="assets/Image/pic1.png" alt="license" class="image">
+            <td class="license"> <img src="assets/Image/license1.jpg" alt="license" class="image">
               <div class="overlay">
-                <div class="text">TQCWord</div>
+                <div class="text">電腦軟體應用<br>丙檢</div>
               </div>
             </td>
           </tr>
           <tr>
-            <td class="license"><img src="assets/Image/pic1.png" alt="license" class="image">
+            <td class="license"><img src="assets/Image/license5.jpg" alt="license" class="image">
               <div class="overlay">
-                <div class="text">TQCExcel</div>
-              </div>
-            </td>
-            <td class="license"> <img src="assets/Image/pic1.png" alt="license" class="image">
-              <div class="overlay">
-                <div class="text">Hello World</div>
+                <div class="text">門市服務<br>丙檢</div>
               </div>
             </td>
           </tr>
+
         </table>
       </div>
     </div>

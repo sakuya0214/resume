@@ -8,32 +8,29 @@
    width: 100%;
    background-color: #ddd;
    margin-bottom: -50px;
-
-
 }
 
 .skills {
    text-align: right;
    padding-top: 3px;
-   padding-bottom: -3px;
+   padding-bottom: 3px;
    color: black;
    font-family: Impact;
    font-size: 20px;
    animation-name: anm;
    animation-duration: 1.5s;
    animation-timing-function: ease-in;
-
 }
 
 .html {
    width: 90%;
-   background-color: #D95857;
+   background-color: #f85555;
 
 }
 
 .css {
    width: 80%;
-   background-color: #D98900;
+   background-color: #fda815;
 }
 
 .js {

@@ -6,7 +6,6 @@
   top: 100px;
   padding: 25px;
   margin: -130px 0 0 -25px;
-
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -133,4 +132,20 @@
   .right {
     left: 0%;
   }
+}
+
+.tl2 {
+  position: relative;
+  left: -400px;
+  height: 420px;
+}
+
+.con2 {
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  position: relative;
+  top: 15px;
+  width: 250px;
+  z-index: 3;
 }
